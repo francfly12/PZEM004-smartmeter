@@ -24,6 +24,17 @@ ALL STL files are given to make the new box. Fits into Standard module.
 - PZEM004T connected to pin GPIO26 (TX) and pin GPIO27 (RX) of lilygo
 - AC wiring: see PZEM004T wiring: 2 wires for AC power(230V mains) and 2 wires for AC transformer (coil, over measured circuit)
 
+## Programmed using Arduino IDE 2.3.2
+- select boar ESP32 Dev Module
+- Serial monitor 115200 bds
+- libraries & fonts to install:
+- //Librairies
+#include <PZEM004Tv30.h>
+#include <Adafruit_GFX.h>    // Core graphics library
+#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
+#include <SPI.h>
+#include <Fonts/FreeSans18pt7b.h>
+
 ## Improvements: There is A LOT OF ROOM for improvement...
   I wrote this software. Not being an expert means it can be greatly improved, but it is also very easy to do so and change things such as text, graphics, etc...
   I am so short of time !
