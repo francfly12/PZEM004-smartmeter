@@ -28,12 +28,10 @@ ALL STL files are given to make the new box. Fits into Standard module.
 - select boar ESP32 Dev Module
 - Serial monitor 115200 bds
 - libraries & fonts to install:
-- //Librairies
-#include <PZEM004Tv30.h>
-#include <Adafruit_GFX.h>    // Core graphics library
-#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
-#include <SPI.h>
-#include <Fonts/FreeSans18pt7b.h>
+- Librairies PZEM004Tv30.h   Adafruit_GFX.h    // Core graphics library
+  Adafruit_ST7789.h // Hardware-specific library for ST7789
+include SPI.h
+include Fonts/FreeSans18pt7b.h
 
 ## Improvements: There is A LOT OF ROOM for improvement...
   I wrote this software. Not being an expert means it can be greatly improved, but it is also very easy to do so and change things such as text, graphics, etc...
