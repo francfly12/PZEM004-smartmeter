@@ -1,5 +1,6 @@
 # PZEM004-smartmeter
 Power meter display using PWM004 and lilygo TDisplay
+/assets/images/20240506_161026.jpg
 ! [Smartmeter] (https://github.com/francfly12/PZEM004-smartmeter/blob/main/20240506_161026.jpg)
 This is a smartmeter designed to display power values of a circuit. 
 Example: solar power production.
