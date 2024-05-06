@@ -7,6 +7,7 @@ It uses a PZEM004T module easily found on internet.
 Display using the lilygo T-display module.
 Easy to make.
 
+! (https://github.com/francfly12/PZEM004-smartmeter/blob/main/20240506_161026.jpg)
 ## You need:
 - PZEM004 module with its current transformer. The original plastic case is removed and it is integrated into a new box with all other components.
 - Lilygo T-Display : ESP32 module with ESP32 . Includes display and the 2 buttons.
